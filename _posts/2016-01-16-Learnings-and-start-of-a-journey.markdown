@@ -2,6 +2,7 @@
 layout: post
 title:  "Learnings and start of a journey"
 date:   2016-01-16 19:54:33
+comments: true
 categories: Showcase Learnings MovingForward
 ---
 
