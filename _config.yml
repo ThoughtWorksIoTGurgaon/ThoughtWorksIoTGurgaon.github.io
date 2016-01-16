@@ -3,7 +3,7 @@ title: Thoughtworks IOT Gurgaon
 email: iot-gurgaon@thoughtworks.com
 description: > # this means to ignore newlines until "baseurl:"
   Thoughtworks IOT Gurgaon blog
-baseurl: "/blog" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://thoughtworksiotgurgaon.github.io" # the base hostname & protocol for your site
 twitter_username: twiotgurgaon
 github_username:  thoughtworksiotgurgaon
