@@ -77,7 +77,9 @@ Warp speed ahead!
 Now that we have a fair understanding of how most things work,our next immediate steps will be to
 
 1.Introduce a reactive-ish framework
+
 2.Focus on security
+
 3.Introduce more means of communication besides WiFI
 
 Watch this space for more.
