@@ -66,9 +66,9 @@ Why did we go about building SmartX when we couldve just configured and used som
 Where are we now?
 -------------------
 
-We conducted our first [showcase][Showcase] last month to the office where we were able to succesfully demonstrate controlling a lamp connected to an arduino connected to a wifi network with our controller code and front end receiving and reacting to the events.The steal of the show was the discovery of the lamp thing (we had our fingers crossed but it worked flawleslly!) which was agnostic to our code and controller,and our code had never before seen the device - upon turning on the lamp thing (lamp -> relay -> arduino with our code -> esp 8266) - SmartX was able to discover the device and it showed up on our asgard ui where we were able to configure it for future use.
+We conducted our first [showcase][Showcase] last month to the office where we were able to succesfully demonstrate controlling a lamp connected to an arduino connected to a wifi network with our controller code and front end receiving and reacting to the events. The steal of the show was the discovery of the lamp thing (we had our fingers crossed) which worked flawleslly! It was agnostic to our code and controller. Our code had never before seen the device. Upon turning on the lamp thing (lamp -> relay -> arduino with our code -> esp 8266), SmartX was able to discover the device and it showed up on our Asgard UI where we were able to configure it for future use.
 
-This is all of course still very early prototype,very hackish and a lot of things didnt work as we expected them to and we had to leave them out.The Scarab library is still not yet finished and needs some major toolchaining and polishing before we can put it out in the open but all in all,it was a great experience for we now have a clear idea of what to do next and how we wish to achieve it. 
+This is all of course still very early prototype,very hackish. A lot of things didnt work as we expected them to and we had to leave them out.The Scarab library is still not finished yet and needs some major toolchaining and polishing before we can put it out in the open but all in all,it was a great experience for we now have a clear idea of what to do next and how we wish to achieve it. 
 
 
 Warp speed ahead!
