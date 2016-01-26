@@ -1,8 +1,8 @@
 # Site settings
-title: Thoughtworks IOT Gurgaon 
+title: ThoughtWorks IOT Gurgaon 
 email: iot-gurgaon@thoughtworks.com
 description: > # this means to ignore newlines until "baseurl:"
-  Thoughtworks IOT Gurgaon blog
+  ThoughtWorks IOT Gurgaon blog
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://thoughtworksiotgurgaon.github.io" # the base hostname & protocol for your site
 twitter_username: twiotgurgaon

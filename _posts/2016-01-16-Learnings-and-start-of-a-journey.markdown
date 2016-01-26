@@ -28,26 +28,9 @@ The way it works is simple -:
 
 4. A fronted - Asgard that lets you view and control/configure all your devices in real time,if a device toggles state,the UI updates it in real time.
 
-The code can be found and used [here][Github-repo] with a brief presentation from the session [here][presentation] but is still a WIP with many things yet to be done.
+The code can be found and used [here][Github-repo] with a brief presentation from the session and more information on the tech stack [here][presentation].
 
-Technologies used
---------------------
-
-As mostly programmers without much prior background into electronics we started our adventure by just learning about the arduino and writing some basic code using the ArduinoIDE - a hello world of sorts to get ourselves familiar,it was good fun and boy were we soon hooked.Next came the software part to our hardware,this is where each one of us took in whatever we deemed good or wanted to learn about and applied it to our little project.Many a technology was tried/tested and then gotten rid of for the want of saner code or build practices; In the end we made a call and our final *temporarily and implicitly agreed upon* tech stack looked as follows-:
-
-1. C - For building Scarab.This came naturally I suppose with C being the defacto standard for embedded devices.
-
-2. AngularJS/HTML5/Bootstrap - As our fronted,we are currently using Androids material theme with our webapp being responsive with all the glitter and minimal work.We also used bower and grunt early on in the cycle to manage our JS application but found it too cumbersome to use and setup with a lot of problems on the pi and decided ultimately to discard it and move and host our app inside a Plays own Netty server.
- 
-3. Scala/Play - Scala mostly because we wanted to toy with Akka actors and because the Play-Scala environment sort of comes a bit more naturally to us Java programmers.Also,i love FP so this was more of a personal choice.We plan to build our framework as a reactive one with the use of Akka actors and Akka is more natural on Scala.Scala does come with its own set of problems however,with bloat and runtime heaviness being a major downer for IoT,we might replace this with Elixir and Actors on Elixir in the future.
-
-4. Akka - For the want of a reactive framework - Currently we employ the use of a pub/sub mechanism through use of an MQTT broker but we hope to change that soon.
-
-5. NodeJS - For Queenbee which does all the binary to json translations between the webapp and the devices.We found JS awesome for defining tests for our protocol definitions and translations.
-
-6. MQTT - As the message broker.Currently both asgard and Queenbee publish messages to different channels on the MQTT broker.We are able to install and set it up by using Mosquitto for our Raspberry PI controller.
-
-7. We also used a custom modified bloatware removed version of ESP-Highway to program our ESP8266 which we used to connect our arduino *things* to our home network. 
+[![Smart-X][smartx-image]]
 
 
 Why is SmartX different from all the public n - home automation frameworks
@@ -88,5 +71,6 @@ Watch this space for more.
 [presentation]: https://docs.google.com/a/thoughtworks.com/presentation/d/1ysq87JS3PwYfoksgjF3MAndatUmeUQLwNZXfH23RTGs/edit?usp=sharing 
 [Github-repo]: https://github.com/ThoughtWorksIoTGurgaon
 [Showcase]: https://www.fuzemeeting.com/replay_meeting/0890ae9a/7751766
+[smartx-image]: http://imgur.com/YrU0d8O
 
 
