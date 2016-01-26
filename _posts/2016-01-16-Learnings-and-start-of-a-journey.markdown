@@ -30,7 +30,7 @@ The way it works is simple -:
 
 The code can be found and used [here][Github-repo] with a brief presentation from the session and more information on the tech stack [here][presentation].
 
-[![Smart-X][smartx-image]]
+![Smart-X][smartx-image]
 
 
 Why is SmartX different from all the public n - home automation frameworks
@@ -71,6 +71,6 @@ Watch this space for more.
 [presentation]: https://docs.google.com/a/thoughtworks.com/presentation/d/1ysq87JS3PwYfoksgjF3MAndatUmeUQLwNZXfH23RTGs/edit?usp=sharing 
 [Github-repo]: https://github.com/ThoughtWorksIoTGurgaon
 [Showcase]: https://www.fuzemeeting.com/replay_meeting/0890ae9a/7751766
-[smartx-image]: http://imgur.com/YrU0d8O
+[smartx-image]: http://i.imgur.com/YrU0d8O.png?2
 
 
